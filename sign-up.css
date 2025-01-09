@@ -1,0 +1,207 @@
+body {
+  background-color: #faffeb !important;
+}
+
+.signup-form {
+  background-color: white;
+  border-radius: 0;
+  /* box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); */
+  padding: 30px;
+  max-width: 550px;
+  margin: 50px auto;
+}
+
+.signup-form h2 {
+  /* margin-bottom: 20px; */
+  color: #206e46;
+}
+
+.signup-form p {
+  color: #0000004d;
+}
+
+.form-group {
+  margin-top: 20px;
+}
+
+.signup-form button {
+  margin-top: 30px;
+}
+
+.button .signup-btn {
+  border: 1px solid #31b471;
+  background-color: #31b471;
+  color: white;
+  padding: 15px;
+  width: 466px;
+  /* margin-bottom: 30px; */
+  /* height: 47px; */
+}
+
+.button2 .google-btn {
+  border: 1px solid #31b471;
+  background-color: transparent;
+  color: black;
+  padding: 15px;
+  width: 466px;
+  margin-bottom: 30px;
+  /* height: 47px; */
+}
+
+.button2 .google-btn {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.forget .all {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5px;
+}
+
+.remember1 .forget1 .all {
+  display: flex;
+  gap: 5px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+/*  */
+.signin {
+  color: #31b471;
+  border-bottom: 1px solid #31b471;
+  text-decoration: none;
+}
+
+.remember .hmm {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.remember .bug a {
+  color: #31b471;
+  width: fit-content;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  text-decoration: none;
+  border-bottom: 1px solid #31b471;
+}
+.remember1 .bug a {
+  color: #31b471;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  text-decoration: none;
+  border-bottom: 1px solid #31b471;
+}
+.remember1 {
+  margin-top: 10px;
+}
+.footer {
+  background-color: #206e46; /* Adjust background color as needed */
+  padding: 20px 0;
+  color: white;
+}
+
+.footer p {
+  margin: 10px auto;
+  font-size: 16px;
+}
+
+.footer .icons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 15px;
+}
+
+.footer .icons a {
+  text-decoration: none;
+}
+
+.footer .icons i {
+  color: #206e46;
+  background-color: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.footer .icons i:hover {
+  background-color: transparent;
+  border: 2px solid white;
+  color: #fff;
+}
+
+.signup-form .otp-input {
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 24px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}
+
+.signup-form .otp-input:focus {
+  border-color: #198754;
+  box-shadow: 0 0 0 0.2rem rgba(25, 135, 84, 0.25);
+}
+
+@media (max-width: 767px) {
+  .signup-form {
+    max-width: 350px;
+    margin: 15px auto;
+  }
+
+  .button .signup-btn {
+    width: 267px;
+  }
+
+  .remember {
+    display: flex;
+    flex-direction: row !important;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .button2 .google-btn {
+    width: 267px;
+  }
+
+  .signup-form .otp-input {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    font-size: 24px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+  }
+
+  .footer .icons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 360px) {
+  .signup-form {
+    max-width: 320px;
+    margin: 15px auto;
+    padding: 15px;
+  }
+
+  .button .signup-btn {
+    width: 267px;
+  }
+}

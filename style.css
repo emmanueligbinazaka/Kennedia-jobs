@@ -1,0 +1,396 @@
+.btn1 {
+  padding: 10px;
+  border: 1px solid #206e46;
+  border-radius: 50px;
+  gap: 50px;
+  width: 120px;
+}
+
+.navbar-brand {
+  margin-left: 105px;
+}
+
+.nav-item {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.nav-item .nav-link:hover {
+  color: #31b471;
+}
+
+.btn1:hover {
+  color: white;
+  background-color: #a9cf46;
+  border: none;
+}
+
+.btn2 {
+  padding: 10px;
+  border: none;
+  border-radius: 50px;
+  gap: 50px;
+  width: 120px;
+  color: white;
+  background-color: #a9cf46;
+  margin-right: 20px;
+}
+
+.btn2:hover {
+  color: white;
+  background-color: #206e46;
+  border: none;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+.hero1 .form-control{
+  background: transparent;
+  color: white;
+}
+.hero {
+  background-color: #206e46;
+  /* background-color: black; */
+
+  h1 {
+    height: 50px;
+    color: white;
+  }
+
+  p {
+    height: 66px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: white;
+  }
+
+  img {
+    float: right;
+    margin-top: 20px;
+  }
+}
+
+.hero-text {
+  padding-block: 6rem;
+}
+/* 
+.dropdown button {
+    color: white;
+    border: 1px solid white;
+    margin-top: 50px;
+    width: 130px;
+}
+
+
+.dropdown button:hover {
+  color: white;
+} */
+
+.search button {
+  color: #206e46;
+  background: white;
+  width: 100px;
+}
+
+.hero1 {
+  display: flex;
+  gap: 10px;
+  padding-top: 50px;
+}
+
+.form-group {
+  width: 100px;
+  /* background-color: red; */
+}
+
+.card {
+  border: 1px solid #a9cf46 !important;
+  border-radius: 10px !important;
+}
+
+.card:hover {
+  background-color: #a8cf4691;
+}
+
+.sec {
+  display: flex;
+  gap: 10px;
+  height: 30px;
+}
+
+.card-title {
+  color: #206e46;
+  font-size: 24px;
+}
+
+.Frist {
+  margin-top: 6rem;
+}
+
+.next {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.next p span {
+  color: #206e46;
+}
+
+.actives {
+  width: 39px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  background-color: #206e46;
+  border-radius: 10px;
+}
+
+.map h1 {
+  color: #31b471;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.footer {
+  margin-top: 50px;
+  /* margin-bottom: 50px; */
+  background-color: #206e46;
+}
+.footer {
+  background-color: #206e46; /* Adjust background color as needed */
+  padding: 20px 0;
+  color: white;
+}
+
+.footer p {
+  margin: 10px auto;
+  font-size: 16px;
+}
+
+.footer .icons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 15px;
+}
+
+.footer .icons a {
+  text-decoration: none;
+}
+
+.footer .icons i {
+  color: #206e46;
+  background-color: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.footer .icons i:hover {
+  background-color: transparent;
+  border: 2px solid white;
+  color: #fff;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  /* background-color: #fff; */
+}
+
+.apply-hero {
+  background-color: #206E46;
+  color: white;
+  padding-block: 4rem;
+  margin-bottom: 50px;
+}
+
+.apply-hero button {
+  padding: 10px;
+  border-radius: 40px;
+  width: 120px;
+  margin-top: 10px;
+  background-color: #fff;
+  color: #206E46;
+}
+
+.apply-hero button:hover {
+  background-color: transparent;
+  border: 1px solid white;
+}
+
+.apply-hero p {
+  float: right;
+  color: white;
+  text-decoration: none;
+  border-bottom: 1px solid white;
+  width: fit-content;
+}
+
+.apply-hero2 h1 {
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  color: #206E46;
+}
+
+.apply-hero2 p {
+  display: flex;
+  justify-content: center;
+}
+
+
+.job .offer h5, h4 {
+  color: #206e46;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.job {
+  margin-top: 50px;
+}
+
+.job .test {
+  display: flex;
+  justify-content: space-between;
+}
+
+.highlight {
+  color: #f44336;
+}
+
+.job .form-control {
+  border: none;
+  border-bottom: 1px solid #ced4da;
+  /* width: 100%; */
+  border-radius: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0.375rem;
+  padding-bottom: 0.375rem;
+  font-size: 14px;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.offer ul {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.form-control1:focus {
+  border-bottom: 2px solid #007bff;
+  outline: none;
+  box-shadow: none; 
+  border: none;
+}
+
+.job form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+@media (max-width: 768px) {
+  .navbar-brand {
+    margin-left: 0;
+  }
+
+  .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero-text {
+    padding-block: 3rem;
+  }
+
+  .hero img {
+    margin-top: 0;
+    float: none;
+  }
+
+  .hero1 {
+    padding-top: 5rem;
+  }
+
+  .sec {
+    display: block;
+    gap: 10px;
+    height: 55px;
+  }
+
+  .Frist {
+    margin-top: 3rem;
+  }
+
+  .next {
+    padding-top: 10px;
+  }
+
+  .footer .icons i {
+    margin-top: 0;
+  }
+
+  .footer .icons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+
+  .apply-hero p {
+    margin-top: 10px;
+    float: left;
+  }
+}
+
+@media (width: 344px) {
+  .hero h1 {
+    height: 75px;
+  }
+
+  .next {
+    padding-top: 10px;
+    gap: 15px;
+  }
+}
+
+@media (width: 768px) {
+  .hero h1 {
+    height: 90px;
+  }
+}
+
+@media (width: 820px) {
+  .hero h1 {
+    height: 90px;
+  }
+
+  .hero img {
+    float: right;
+  }
+
+  .hero1 {
+    padding-top: 6rem;
+  }
+}
