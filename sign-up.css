@@ -104,8 +104,8 @@ body {
   background-color: #206e46;
   padding: 20px;
   color: white;
-  position: absolute;
-  bottom: 0;
+  /* position: absolute;
+  bottom: 0; */
   width: 100%;
 }
 
@@ -139,6 +139,50 @@ body {
 }
 
 .footer .icons i:hover {
+  background-color: transparent;
+  border: 2px solid white;
+  color: #fff;
+}
+
+.footer1 {
+  background-color: #206e46;
+  padding: 20px;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer1 p {
+  margin: 10px auto;
+  font-size: 16px;
+}
+
+.footer1 .icons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 15px;
+}
+
+.footer1 .icons a {
+  text-decoration: none;
+}
+
+.footer1 .icons i {
+  color: #206e46;
+  background-color: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.footer1 .icons i:hover {
   background-color: transparent;
   border: 2px solid white;
   color: #fff;
